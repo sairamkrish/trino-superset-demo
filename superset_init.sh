@@ -6,3 +6,4 @@ docker-compose exec superset superset fab create-admin \
     --password admin
 docker-compose exec superset superset db upgrade
 docker-compose exec superset superset init
+
